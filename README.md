@@ -13,5 +13,5 @@ example:
 `python image.py FSV_Mirai`
 
 generates:  
-MCID.png #player's head   
-out_MCID.png #Generated file  
+- MCID.png #player's head   
+- out_MCID.png #Generated file  
