@@ -9,10 +9,9 @@ Requires:
  ## How to use  
  `python image.py MCID(IGN)`
 
-example:
+example:  
 `python image.py FSV_Mirai`
 
-generates:
-
-MCID.png #player's head 
-out_MCID.png #Generated file
+generates:  
+MCID.png #player's head   
+out_MCID.png #Generated file  
