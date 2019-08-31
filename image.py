@@ -88,7 +88,7 @@ def add_text_to_image(img, text, font_path, font_size, font_color, height, width
 song_title = str(args[1]).upper()
 font_path = "ex.otf"
 font_size = 72
-font_color = (53, 33, 18)
+font_color = (83, 63, 48)
 height = 210
 width = 140
 img = add_text_to_image(back_im, song_title, font_path, font_size, font_color, height, width)
