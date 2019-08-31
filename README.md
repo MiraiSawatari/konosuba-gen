@@ -8,3 +8,6 @@ Requires:
  
  ## How to use  
  `python image.py MCID(IGN)`
+
+example:
+`python image.py FSV_Mirai`
