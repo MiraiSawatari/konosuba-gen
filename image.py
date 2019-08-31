@@ -1,16 +1,12 @@
+# -*- coding: utf-8 -*-
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-from PIL import ImageFont
 import math
 import os
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-import cv2
-import numpy as np
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFilter
+from PIL import ImageFont
 from time import time
 import urllib.request
 
@@ -32,7 +28,7 @@ dilation = cv2.dilate(img,kernel,iterations = 1)
 diff = cv2.subtract(dilation, img)
 
 white = [102, 83, 53]
-from PIL import Image, ImageDraw, ImageFilter
+
 
 
 cv2.imwrite('output.png', img)
@@ -67,7 +63,7 @@ end = time() - st
 print(end)
 
 cv2.imwrite('output.png',result)
-from PIL import Image, ImageDraw, ImageFilter
+
 
 im1 = Image.open('back.png')
 im2 = Image.open('output.png')
